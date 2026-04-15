@@ -63,7 +63,6 @@ Writing rules:
 - Write the skill instructions in the output language determined during PHASE 1
 - Embed the user's KPI criteria directly into the skill as a QUALITY GATE section — the skill must self-verify its output against these criteria before presenting results. If output fails any criterion, the skill must redo that part, not just acknowledge the gap.
 - If the skill saves output to a file, include instructions for: target folder, file naming convention, and format (default: markdown). Use the Write tool for file output.
-- If the skill needs manual invocation only, add `disable-model-invocation: true` to frontmatter
 
 PHASE 4: VERIFY
 
